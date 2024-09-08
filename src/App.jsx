@@ -67,7 +67,7 @@ function App() {
             Generate answer
           </button>
         </form>
-        <div className="w-full md:w-2/3 lg:w-1/2 xl:w-1/3 text-center rounded-lg bg-white my-4 shadow-lg transition-all duration-500 transform hover:scale-105">
+        <div className="w-full answer md:w-2/3 lg:w-1/2 xl:w-1/3 text-center rounded-lg bg-white my-4 shadow-lg transition-all duration-500 transform hover:scale-105">
           <ReactMarkdown className="p-4">{answer}</ReactMarkdown>
         </div>
       </div>
